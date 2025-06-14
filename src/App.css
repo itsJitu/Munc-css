@@ -1,7 +1,7 @@
 .container {
-  padding: 0 50px;
+  padding: 100 100px;
   background-color: #f3f4f6;
-  height: 840px;
+  height: 720px;
 }
 
 .header {
@@ -9,11 +9,13 @@
   align-items: center;
   gap: 16px;
   padding: 32px;
-  font-weight: 600;
+  font-weight: bold;
+  margin-left: auto;
 }
 
 .content {
   padding: 0 50px;
+  margin-left: 80px;
 }
 
 .button-group {
@@ -21,11 +23,19 @@
   align-items: center;
 }
 
+.button-top-left {
+  border-top-left-radius: 8px;
+}
+
+.button-last {
+  border-top-right-radius: 8px;
+}
+
 .button-active {
   background-color: #ffffff;
   color: #6b7280;
   border: 1px solid #e5e7eb;
-  border-bottom: none;
+  border-bottom-color: white;
   padding: 8px;
 }
 
@@ -36,22 +46,13 @@
   padding: 8px;
 }
 
-.button-top-left {
-  border-top-left-radius: 8px;
-}
-
-.button-top-right {
-  border-top-right-radius: 8px;
-}
-
 .toggle-section {
-  border: 1px solid #f3f4f6;
-  border-top: none;
-  border-bottom-left-radius: 8px;
+  border: 1px solid rgb(220, 215, 215);
+  border-top: white;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
   background-color: #ffffff;
-  padding: 30px 20px;
+  padding: 40px 80px;
 }
 
 .section-container {
@@ -62,7 +63,6 @@
 .section-header {
   background-color: #e5e7eb;
   display: flex;
-  border: 1px solid #f3f4f6;
   justify-content: space-between;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -72,15 +72,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px;
+  padding: 6px;
 }
 
 .icon-container {
   color: #3b82f6;
-  font-size: 36px;
-  padding: 4px;
+  font-size: 40px;
+  padding: 5px;
   background-color: #ffffff;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .section-title-text {
@@ -93,7 +93,7 @@
 }
 
 .edit-icon {
-  padding: 8px;
+  padding: 10px;
   margin-top: 20px;
   color: #6b7280;
 }
@@ -136,7 +136,7 @@
 
 .seo-content {
   display: flex;
-  gap: 120px;
+  gap: 10px;
 }
 
 .keywords {

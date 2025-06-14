@@ -53,31 +53,37 @@ function App() {
           {/* Buttons */}
           <div className="button-group">
             {/* General Information */}
-            <div className={isOpen ? "button-active" : "button-inactive button-top-left"}>
-              <p onClick={isToggle}>
-                <p>General Information</p>
-              </p>
+            <div
+              className={
+                isOpen ? "button-active button-top-left" : "button-inactive button-top-left"
+              }
+              onClick={isToggle}
+            >
+              <p>General Information</p>
             </div>
 
             {/* Pricing & Tax */}
-            <div className={isOpen1 ? "button-active" : "button-inactive"}>
-              <p onClick={isToggle1}>
-                <p>Pricing & Tax</p>
-              </p>
+            <div
+              className={isOpen1 ? "button-active" : "button-inactive"}
+              onClick={isToggle1}
+            >
+              <p>Pricing & Tax</p>
             </div>
 
             {/* Description & Media */}
-            <div className={isOpen2 ? "button-active" : "button-inactive"}>
-              <p onClick={isToggle2}>
-                <p>Description & Media</p>
-              </p>
+            <div
+              className={isOpen2 ? "button-active" : "button-inactive"}
+              onClick={isToggle2}
+            >
+              <p>Description & Media</p>
             </div>
 
             {/* Variants */}
-            <div className={isOpen3 ? "button-active" : "button-inactive button-top-right"}>
-              <p onClick={isToggle3}>
-                <p>Variants</p>
-              </p>
+            <div
+              className={isOpen3 ? "button-active button-last" : "button-inactive button-last"}
+              onClick={isToggle3}
+            >
+              <p>Variants</p>
             </div>
           </div>
 
@@ -292,17 +298,21 @@ function App() {
                       <div className="keywords">
                         <p className="label">Keywords</p>
                         <p className="value">
-                          Mango, Fruits, Kashmiri aam, Ratnagiri aam, langra aam, keshri aam
+                          Mango, Fruits, Kashmiri aam, Ratnagiri aam, langra
+                          aam, keshri aam
                         </p>
                       </div>
 
                       <div>
                         <p className="label">Description</p>
                         <p className="value">
-                          Mangoes, Often referred to as the "king of fruits," are not only delicious but also packed with
-                          nutrients. They are rich in vitamins A and C, which are essential for maintaining healthy skin and
-                          boosting the immune system. Additionally, mangoes contain antioxidants that help combat free radicals
-                          in the body. Their sweet, juicy smoothies, salads, and desserts.
+                          Mangoes, Often referred to as the "king of fruits,"
+                          are not only delicious but also packed with nutrients.
+                          They are rich in vitamins A and C, which are essential
+                          for maintaining healthy skin and boosting the immune
+                          system. Additionally, mangoes contain antioxidants
+                          that help combat free radicals in the body. Their
+                          sweet, juicy smoothies, salads, and desserts.
                         </p>
                       </div>
                     </div>
